@@ -48,5 +48,8 @@ fun CounterApp() {
         Button(onClick = { count++ }) {
             Text("Increase")
         }
+        Button(onClick = { count = 0 }) {
+            Text("Reset")
+        }
     }
 }
